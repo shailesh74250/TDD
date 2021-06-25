@@ -1,0 +1,28 @@
+{
+  "name": "TDD",
+  "version": "1.0.0",
+  "description": "Test driven development",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shailesh74250/TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shailesh74250/TDD/issues"
+  },
+  "homepage": "https://github.com/shailesh74250/TDD#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.5",
+    "supertest": "^6.1.3"
+  }
+}
